@@ -88,29 +88,29 @@ def Squares(a,b,S,L):
 
 
 if __name__ == '__main__':
-    # Performs various partitionings of the triangle with vertices P1, P2, and P3
-    # P1 = Point(-5.0,-5.5)
-    # P2 = Point(5.0,-5.0)
-    # P3 = Point(3.0,5.0)
-    # Display a 0-level, 1-level, 2-level, 3-level, and 4-level tiling
-    # of the same triangle
+    Performs various partitionings of the triangle with vertices P1, P2, and P3
+    P1 = Point(-5.0,-5.5)
+    P2 = Point(5.0,-5.0)
+    P3 = Point(3.0,5.0)
+    Display a 0-level, 1-level, 2-level, 3-level, and 4-level tiling
+    of the same triangle
 
-    # MakeWindow(6,bgcolor=BLACK,labels=False)
-    # Tile(P1,P2,P3,4)
-    # Title('A 4-level Tiling')
-    # MakeWindow(6,bgcolor=BLACK,labels=False)
-    # Tile(P1,P2,P3,3)
-    # Title('A 3-level Tiling')
-    # MakeWindow(6,bgcolor=BLACK,labels=False)
-    # Tile(P1,P2,P3,2)
-    # Title('A 2-level Tiling')
-    # MakeWindow(6,bgcolor=BLACK,labels=False)
-    # Tile(P1,P2,P3,1)
-    # Title('A 1-level Tiling')
-    # MakeWindow(6,bgcolor=BLACK,labels=False)
-    # Tile(P1,P2,P3,0)
-    # Title('A 0-level Tiling')
-    # ShowWindow()
+    MakeWindow(6,bgcolor=BLACK,labels=False)
+    Tile(P1,P2,P3,4)
+    Title('A 4-level Tiling')
+    MakeWindow(6,bgcolor=BLACK,labels=False)
+    Tile(P1,P2,P3,3)
+    Title('A 3-level Tiling')
+    MakeWindow(6,bgcolor=BLACK,labels=False)
+    Tile(P1,P2,P3,2)
+    Title('A 2-level Tiling')
+    MakeWindow(6,bgcolor=BLACK,labels=False)
+    Tile(P1,P2,P3,1)
+    Title('A 1-level Tiling')
+    MakeWindow(6,bgcolor=BLACK,labels=False)
+    Tile(P1,P2,P3,0)
+    Title('A 0-level Tiling')
+    ShowWindow()
 
     #To display the output from Squares procedure
     MakeWindow(25,bgcolor=BLACK,labels=False)
